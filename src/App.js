@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 const App = () => {
-  const [activeSection, setActiveSection] = useState('home');
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
