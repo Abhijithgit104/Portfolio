@@ -52,6 +52,14 @@ const App = () => {
         image: "assets/images/Screenshot 2026-03-11 120004.png"
       },
       {
+        title: "Personal Portfolio",
+        description: "A premium, responsive personal portfolio website designed in Figma and developed with React and Tailwind CSS. Featuring dynamic animations and glassmorphism design.",
+        tools: ["React", "Tailwind CSS", "Figma", "Framer Motion"],
+        github: "https://github.com/Abhijithgit104/portfolio.git",
+        demo: "#",
+        image: "assets/images/portfolio.png"
+      },
+      {
         title: "Flipkart Homepage Clone",
         description: "A pixel-perfect recreation of the Flipkart homepage using semantic HTML and custom CSS, focusing on responsive design and UI accuracy.",
         tools: ["HTML", "CSS", "Responsive Design"],
@@ -73,14 +81,14 @@ const App = () => {
       <div className="bg-glow"></div>
 
       {/* Navigation */}
-      <nav className={`navbar ${scrollPosition > 50 ? 'scrolled' : ''}`}>
-        <div className="logo gradient-text">ATM</div>
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <nav className={`navbar transition-all duration-500 ease-in-out ${scrollPosition > 50 ? 'scrolled shadow-lg' : ''}`}>
+        <div className="logo gradient-text cursor-pointer hover:scale-110 transition-transform">ATM</div>
+        <ul className="nav-links flex items-center space-x-8">
+          <li className="hover:-translate-y-1 transition-transform"><a href="#home">Home</a></li>
+          <li className="hover:-translate-y-1 transition-transform"><a href="#about">About</a></li>
+          <li className="hover:-translate-y-1 transition-transform"><a href="#projects">Projects</a></li>
+          <li className="hover:-translate-y-1 transition-transform"><a href="#experience">Experience</a></li>
+          <li className="hover:-translate-y-1 transition-transform"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -89,10 +97,10 @@ const App = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h5 className="intro-badge">Available for Hire</h5>
-            <h1 className="hero-title">
+            <h1 className="hero-title text-6xl md:text-7xl font-extrabold tracking-tight">
               Hi, I'm <span className="gradient-text">{data.name}</span>
             </h1>
-            <h2 className="hero-subtitle">{data.careerGoals}</h2>
+            <h2 className="hero-subtitle text-2xl md:text-3xl text-gray-400 mt-2 font-medium">{data.careerGoals}</h2>
             <p className="hero-desc">
               I am a passionate Full Stack Developer currently pursuing my BCA, with a deep focus on building 
               high-performance web applications. I blend creative design with technical excellence using React, 
@@ -132,7 +140,9 @@ const App = () => {
             <h3>Skills & Technologies</h3>
             <div className="skills-grid">
               {data.skills.map((skill, index) => (
-                <div key={index} className="skill-tag">{skill}</div>
+                <div key={index} className="skill-tag hover:bg-cyan-400 hover:text-black hover:border-cyan-400 transition-all cursor-default">
+                  {skill}
+                </div>
               ))}
             </div>
           </div>
@@ -159,9 +169,13 @@ const App = () => {
                      <span key={i}>{tool}</span>
                    ))}
                 </div>
-                <div className="project-links">
-                  <a href={project.github} className="link-icon">GitHub</a>
-                  <a href={project.demo} className="link-icon">Demo</a>
+                <div className="project-links mt-auto flex gap-6">
+                  <a href={project.github} className="link-icon flex items-center gap-1 hover:underline">
+                    GitHub
+                  </a>
+                  <a href={project.demo} className="link-icon flex items-center gap-1 hover:underline">
+                    Demo
+                  </a>
                 </div>
               </div>
             </div>
