@@ -15,7 +15,7 @@ const App = () => {
 
   const data = {
     name: "Abhijith T M",
-    background: "I am a dedicated Bachelor of Computer Applications (BCA) student at Ideal College (2022–2025), specializing in modern web technologies. My academic background has equipped me with a strong understanding of computer science fundamentals, from data structures to software architecture. I am passionate about crafting high-performance, responsive web applications and continuously refining my skills in both frontend and backend development to deliver comprehensive digital solutions.",
+    background: "A dedicated Bachelor of Computer Applications (BCA) graduate specializing in modern web technologies. Passionate about crafting high-performance, responsive web applications and continuously refining skills in both frontend and backend development to deliver comprehensive digital solutions using React, Django, and Next.js.",
     careerGoals: "Full stack developer",
     skills: ["HTML", "CSS", "Javascript", "React", "Redux", "Next JS", "Typescript", "Python", "Django", "Flask"],
     email: "abhijithtm861@gmail.com",
@@ -36,32 +36,32 @@ const App = () => {
     ],
     projects: [
       {
-        title: "Django Ecommerce App",
-        description: "A robust online marketplace featuring product management, integrated Bootstrap styling, and a powerful PostgreSQL backend.",
-        tools: ["Python", "Django", "PostgreSQL", "Bootstrap"],
+        title: "Full-Stack E-commerce Application",
+        description: "A comprehensive full-stack e-commerce solution with a Vite-powered React frontend and a robust Django REST API backend. Features secure JWT authentication, Redux state management, and a scalable PostgreSQL database schema.",
+        tools: ["React", "Django", "PostgreSQL", "Redux", "JWT"],
         github: "https://github.com/Abhijithgit104/Django-ecommerce.git",
         demo: "#",
         image: "assets/images/ecommerce.png"
       },
       {
         title: "Next.js Ecommerce Store",
-        description: "A high-performance modern storefront built with Next.js App Router, Typescript, and integrated Bootstrap for a seamless user experience.",
-        tools: ["Next.js", "App Router", "Typescript", "Bootstrap"],
+        description: "A high-performance modern storefront built with the latest Next.js App Router for optimal routing and speed. Implemented strong typing with TypeScript to ensure code reliability and focused on a seamless user experience with performance optimizations.",
+        tools: ["Next.js", "App Router", "Typescript", "Tailwind CSS"],
         github: "https://github.com/Abhijithgit104/app-router-nextjs.git",
         demo: "https://app-router-nextjs-nu.vercel.app/",
         image: "assets/images/Screenshot 2026-03-11 120004.png"
       },
       {
         title: "Personal Portfolio",
-        description: "A premium, responsive personal portfolio website designed in Figma and developed with React and Tailwind CSS. Featuring dynamic animations and glassmorphism design.",
-        tools: ["React", "Tailwind CSS", "Figma", "Framer Motion"],
+        description: "A premium, responsive personal portfolio website designed and developed using React.js and glassmorphism effects. Optimized for high-quality visual experience and performance to showcase professional projects.",
+        tools: ["React", "Custom CSS", "Glassmorphism", "Framer Motion"],
         github: "https://github.com/Abhijithgit104/portfolio.git",
         demo: "#",
-        image: "assets/images/portfolio.png"
+        image: "assets/images/image.png"
       },
       {
         title: "Flipkart Homepage Clone",
-        description: "A pixel-perfect recreation of the Flipkart homepage using semantic HTML and custom CSS, focusing on responsive design and UI accuracy.",
+        description: "A pixel-perfect recreation of the Flipkart homepage using semantic HTML and custom CSS. Focused accurately on responsive design principles and UI fidelity compared to the original site.",
         tools: ["HTML", "CSS", "Responsive Design"],
         github: "https://github.com/Abhijithgit104/Flipkart-clone.git",
         demo: "https://flipkart-clone-lyart.vercel.app/",
