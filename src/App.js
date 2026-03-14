@@ -39,9 +39,9 @@ const App = () => {
         title: "Full-Stack E-commerce Application",
         description: "A comprehensive full-stack e-commerce solution with a Vite-powered React frontend and a robust Django REST API backend. Features secure JWT authentication, Redux state management, and a scalable PostgreSQL database schema.",
         tools: ["React", "Django", "PostgreSQL", "Redux", "JWT"],
-        github: "https://github.com/Abhijithgit104/Django-ecommerce.git",
-        demo: "#",
-        image: "assets/images/ecommerce.png"
+        github: "https://github.com/Abhijithgit104/Full-stack-ecommerce-app.git",
+        demo: "https://ecomm-frontend-gv6v.onrender.com/",
+        image: "assets/images/full-stack.png"
       },
       {
         title: "Next.js Ecommerce Store",
