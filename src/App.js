@@ -113,7 +113,6 @@ const App = () => {
             <div className="hero-socials">
               <a href={`mailto:${data.email}`} target="_blank" rel="noreferrer">Email</a>
               <a href={`https://${data.linkedin}`} target="_blank" rel="noreferrer">LinkedIn</a>
-              <a href={`tel:${data.phone}`} target="_blank" rel="noreferrer">Phone</a>
             </div>
           </div>
           <div className="hero-image-container">
