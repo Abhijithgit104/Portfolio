@@ -43,6 +43,50 @@ const App = () => {
         demo: "https://ecomm-api-gv6v.onrender.com/",
         image: "assets/images/full-stack-real.png"
       },
+{
+  title: "Job Tracking System Full-Stack",
+  description: "Built a full-stack job tracking platform where employers can post and manage jobs, and candidates can browse and apply for positions. Implemented JWT authentication, role-based dashboards, application status tracking, job filtering, and REST API integration using React and Django.",
+  
+  tools: [
+    "React.js",
+    "JavaScript",
+    "CSS",
+    "Django",
+    "Django REST Framework",
+    "PostgreSQL",
+    "JWT Authentication",
+    "Render",
+    "Vercel",
+  ],
+
+  github: "https://github.com/Abhijithgit104/Job-tracking-system",
+
+  demo: "https://job-tracking-system-2-ncuc.onrender.com",
+
+  image: "assets/images/job-tracker.png"
+},
+
+{
+  title: "Finance Dashboard Backend API",
+  
+  description: "Built a finance management backend using Django REST Framework with role-based access control (Admin, Analyst, Viewer). Developed secure REST APIs for income and expense CRUD operations, analytics summaries, and authentication with proper validation and error handling.",
+
+  tools: [
+    "Python",
+    "Django",
+    "Django REST Framework",
+    "PostgreSQL",
+    "JWT Authentication",
+    "Git",
+    "GitHub"
+  ],
+
+  github: "https://github.com/Abhijithgit104/Finance-Management-System-Django",
+
+  demo: null,
+
+  image: "assets/images/finance-dashboard.jpg"
+},
       {
         title: "Next.js Ecommerce Store",
         description: "A high-performance modern storefront built with the latest Next.js App Router for optimal routing and speed. Implemented strong typing with TypeScript to ensure code reliability and focused on a seamless user experience with performance optimizations.",
@@ -172,9 +216,14 @@ const App = () => {
                   <a href={project.github} className="link-icon flex items-center gap-1 hover:underline">
                     GitHub
                   </a>
-                  <a href={project.demo} className="link-icon flex items-center gap-1 hover:underline">
-                    Demo
-                  </a>
+                  {project.demo && (
+  <a
+    href={project.demo}
+    className="link-icon flex items-center gap-1 hover:underline"
+  >
+    Demo
+  </a>
+)}
                 </div>
               </div>
             </div>
