@@ -35,14 +35,7 @@ const App = () => {
       }
     ],
     projects: [
-      {
-        title: "Full-Stack E-commerce Application",
-        description: "A comprehensive full-stack e-commerce solution with a Vite-powered React frontend and a robust Django REST API backend. Features secure JWT authentication, Redux state management, and a scalable PostgreSQL database schema.",
-        tools: ["React", "Django", "PostgreSQL", "Redux", "JWT","Bootstrap"],
-        github: "https://github.com/Abhijithgit104/Full-stack-ecommerce-app.git",
-        demo: "https://ecomm-api-gv6v.onrender.com/",
-        image: "assets/images/full-stack-real.png"
-      },
+      
 {
   title: "Job Tracking System Full-Stack",
   description: "Built a full-stack job tracking platform where employers can post and manage jobs, and candidates can browse and apply for positions. Implemented JWT authentication, role-based dashboards, application status tracking, job filtering, and REST API integration using React and Django.",
@@ -67,6 +60,33 @@ const App = () => {
 },
 
 {
+  title: "Library Management System",
+
+  description:
+    "Developed a role-based full-stack Library Management System using React.js and Django REST Framework. Features include JWT authentication, Admin/Author/Reader dashboards, Book CRUD operations, book borrowing workflow, availability tracking, dashboard statistics, and secure REST APIs. Implemented authorization rules to ensure authors manage only their own books while readers can browse and borrow available books.",
+
+  tools: [
+    "React.js",
+    "JavaScript",
+    "Bootstrap",
+    "Django",
+    "Django REST Framework",
+    "SQLite",
+    "JWT",
+    "Axios",
+    "REST APIs",
+    "Git"
+  ],
+
+  github: "https://github.com/Abhijithgit104/library-management-system",
+
+  demo: "",
+
+  image: "assets/images/library-project.png"
+},
+
+
+{
   title: "Finance Dashboard Backend API",
   
   description: "Built a finance management backend using Django REST Framework with role-based access control (Admin, Analyst, Viewer). Developed secure REST APIs for income and expense CRUD operations, analytics summaries, and authentication with proper validation and error handling.",
@@ -87,6 +107,14 @@ const App = () => {
 
   image: "assets/images/finance-dashboard.jpg"
 },
+{
+        title: "Full-Stack E-commerce Application",
+        description: "A comprehensive full-stack e-commerce solution with a Vite-powered React frontend and a robust Django REST API backend. Features secure JWT authentication, Redux state management, and a scalable PostgreSQL database schema.",
+        tools: ["React", "Django", "PostgreSQL", "Redux", "JWT","Bootstrap"],
+        github: "https://github.com/Abhijithgit104/Full-stack-ecommerce-app.git",
+        demo: "https://ecomm-api-gv6v.onrender.com/",
+        image: "assets/images/full-stack-real.png"
+      },
       {
         title: "Next.js Ecommerce Store",
         description: "A high-performance modern storefront built with the latest Next.js App Router for optimal routing and speed. Implemented strong typing with TypeScript to ensure code reliability and focused on a seamless user experience with performance optimizations.",
@@ -103,14 +131,14 @@ const App = () => {
         demo: "#",
         image: "assets/images/image.png"
       },
-      {
-        title: "Flipkart Homepage Clone",
-        description: "A pixel-perfect recreation of the Flipkart homepage using semantic HTML and custom CSS. Focused accurately on responsive design principles and UI fidelity compared to the original site.",
-        tools: ["HTML", "CSS", "Responsive Design"],
-        github: "https://github.com/Abhijithgit104/Flipkart-clone.git",
-        demo: "https://flipkart-clone-lyart.vercel.app/",
-        image: "assets/images/flipkart_clone.png"
-      }
+      // {
+      //   title: "Flipkart Homepage Clone",
+      //   description: "A pixel-perfect recreation of the Flipkart homepage using semantic HTML and custom CSS. Focused accurately on responsive design principles and UI fidelity compared to the original site.",
+      //   tools: ["HTML", "CSS", "Responsive Design"],
+      //   github: "https://github.com/Abhijithgit104/Flipkart-clone.git",
+      //   demo: "https://flipkart-clone-lyart.vercel.app/",
+      //   image: "assets/images/flipkart_clone.png"
+      // }
     ],
     certifications: [
       "Python Full Stack Development Certification - Upcode",
